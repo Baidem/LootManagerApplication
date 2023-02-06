@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Author : Person
+    [JsonConverter(typeof(JsonStringEnumConverter))]
+    public enum Role
     {
-        public string Details { get; set; }
+        User, Admin, Expert
     }
-
 }

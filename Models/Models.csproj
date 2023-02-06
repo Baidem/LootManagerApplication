@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Loot\" />
+    <Folder Include="Detail\" />
+    <Folder Include="Person\" />
+  </ItemGroup>
+
 </Project>
