@@ -15,7 +15,6 @@ namespace Models
         public Position? Position { get; set; }
         public Specification Specification { get; set; }
         public string Rank { get; set; }
-        public List<Price>? Prices { get; set; }
         public int UserId { get; set; }
         public int PositionId { get; set; }
         public int SpecificationId { get; set; }

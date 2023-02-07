@@ -10,6 +10,6 @@ namespace Models
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum MangaGenre
     {
-        Shonen, Seinen, Shojo, Josei, Yuri, Yaoi,Hentai
+        Shonen, Seinen, Shojo, Josei, Yuri, Yaoi, Hentai
     }
 }
