@@ -17,8 +17,9 @@ namespace Models
         public string Phone { get; set; }
         public string Address { get; set; }
         public List<UserRole> Roles { get; set; }
-        public List<Loot> Loots { get; set; }
-        public List<Storage> Storages { get; set; }
         public DateTime AccountOpened { get; set; }
+        // Navigation Properties //
+        public List<Loot> Loots { get; set; }
+        public List<House> Houses { get; set; }
     }
 }
