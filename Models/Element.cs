@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public abstract class Loot
+    public abstract class Element
     {
         public int Id { get; set; }
         public User User { get; set; }
         public string? Label { get; set; }
         public Position? LootPosition { get; set; }
-        public Specification Specification { get; set; }
+        public InfoSheet Specification { get; set; }
         public string Rank { get; set; }
         public ICollection<Image> ImageGallery { get; set; }
         public bool HavePackaging { get; set; }

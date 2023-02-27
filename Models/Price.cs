@@ -16,7 +16,7 @@ namespace Models
         public string PreviousOwner { get; set; }
         public string NewOwner { get; set; }
         public string Rank { get; set; }
-        public Specification Specification { get; set; }
+        public InfoSheet Specification { get; set; }
         // Navigation properties//
         public int SpecificationId { get; set; }
 

@@ -19,7 +19,9 @@ namespace Models
         public List<UserRole> Roles { get; set; }
         public DateTime AccountOpened { get; set; }
         // Navigation Properties //
-        public List<Loot> Loots { get; set; }
+        public List<Element> Loots { get; set; }
         public List<House> Houses { get; set; }
+        public int FamilyId { get; set; }
+        public Family Family { get; set; }
     }
 }

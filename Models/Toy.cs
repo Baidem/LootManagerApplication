@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Toy : Specification
+    public class Toy : InfoSheet
     {
         public Person Compagny { get; set; }
         public ToySeries Series { get; set; }

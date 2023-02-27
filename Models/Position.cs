@@ -15,7 +15,7 @@ namespace Models
         // Navigation properties //
         public Shelf Shelf { get; set; }
         public int ShelfId { get; set; }
-        public List<Loot> Loots { get; set; }
+        public List<Element> Loots { get; set; }
 
         public void GetLocation(int LootID, int UserId)
         {

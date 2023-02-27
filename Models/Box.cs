@@ -14,6 +14,6 @@ namespace Models
         // Navigation properties //
         public Position Position { get; set; }
         public int PositionId { get; set; }
-        public List<Loot> Loots { get; set; }
+        public List<Element> Loots { get; set; }
     }
 }

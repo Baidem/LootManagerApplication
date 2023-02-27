@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Book : Specification
+    public class Book : InfoSheet
     {
         public string Title { get; set; }
         public string ISBN { get; set; }
