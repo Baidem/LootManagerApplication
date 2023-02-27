@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootManagerApplication", "LootManagerApplication\LootManagerApplication.csproj", "{20DE2471-6EB7-443F-952E-3F7729B08318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LootManagerApplication", "LootManagerApplication\LootManagerApplication.csproj", "{20DE2471-6EB7-443F-952E-3F7729B08318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{F78B9781-0FCB-4F13-8115-B4E22F680DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{F78B9781-0FCB-4F13-8115-B4E22F680DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contexts", "Contexts\Contexts.csproj", "{5FFB5D81-6ECB-40FD-92DE-830EA24FCC36}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20DE2471-6EB7-443F-952E-3F7729B08318} = {20DE2471-6EB7-443F-952E-3F7729B08318}
+		{F78B9781-0FCB-4F13-8115-B4E22F680DBE} = {F78B9781-0FCB-4F13-8115-B4E22F680DBE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,10 @@ Global
 		{F78B9781-0FCB-4F13-8115-B4E22F680DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F78B9781-0FCB-4F13-8115-B4E22F680DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F78B9781-0FCB-4F13-8115-B4E22F680DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFB5D81-6ECB-40FD-92DE-830EA24FCC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFB5D81-6ECB-40FD-92DE-830EA24FCC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFB5D81-6ECB-40FD-92DE-830EA24FCC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFB5D81-6ECB-40FD-92DE-830EA24FCC36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
